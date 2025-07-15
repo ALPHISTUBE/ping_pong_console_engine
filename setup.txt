@@ -1,0 +1,9 @@
+# for windows
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+
+# for linux
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
