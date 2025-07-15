@@ -1,4 +1,4 @@
-# Terminal Pong V2 🕹️
+# Terminal Pong 🕹️
 
 A **100 % text‑mode Pong clone** that runs directly in your terminal using nothing but ANSI escape codes and the Python standard library. No external dependencies, no curses — just print statements and keyboard polling.
 
@@ -35,33 +35,25 @@ terminal‑pong‑v2/
 
 ## 🛠️ Setup
 
-\### Linux / macOS
+Linux / macOS
 
 ```bash
-# 1.  Clone the repo
-$ git clone https://github.com/your‑user/terminal‑pong‑v2.git
-$ cd terminal‑pong‑v2
-
-# 2.  Create & activate a virtual environment (optional but recommended)
+# 1.  Create & activate a virtual environment (optional but recommended)
 $ python3 -m venv venv
 $ source venv/bin/activate
 
-# 3.  Run the game
+# 2.  Run the game
 $ python main.py
 ```
 
-\### Windows (cmd / PowerShell)
+Windows (cmd / PowerShell)
 
 ```powershell
-# 1.  Clone (or download) the repo
-PS> git clone https://github.com/your‑user/terminal‑pong‑v2.git
-PS> cd terminal‑pong‑v2
-
-# 2.  Create & activate a virtual environment
+# 1.  Create & activate a virtual environment
 PS> py -3 -m venv venv
 PS> .\venv\Scripts\activate
 
-# 3.  Run the game
+# 2.  Run the game
 PS> python main.py
 ```
 
